@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('gallery.urls')), #chegar uma request no endereço principal da aplicação, executa a função index
+    path('', include('gallery.urls')),#chegar uma request no endereço principal da aplicação, executa a função index
 ]
